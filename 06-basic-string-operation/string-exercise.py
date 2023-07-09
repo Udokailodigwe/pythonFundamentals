@@ -1,3 +1,4 @@
+# PRINT 4 LETTERS FROM THE MIDDLE OF THE STRING IF ALL STRING ARE EVEN, OR 5 LETTERS WHEN ODD
 string = "Python is a really nice language"
 
 remainder = len(string) % 2 # to check if number is even
