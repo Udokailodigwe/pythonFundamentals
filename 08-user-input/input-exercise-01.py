@@ -1,4 +1,4 @@
-#get user country, capital data and store in dictionary, using six input function
+#get user country, capital data and store in dictionary, using six input 10-functions
 
 
 country_capital_joined = {}

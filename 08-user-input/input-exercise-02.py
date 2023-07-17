@@ -1,4 +1,4 @@
-#get user country, capital data and store in dictionary, using three input function
+#get user country, capital data and store in dictionary, using three input 10-functions
 
 country_capital_dict = {}
 country_capital_input = input("Enter country name and its capital, separated by a coma: ")
