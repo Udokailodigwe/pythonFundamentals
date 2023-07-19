@@ -1,5 +1,5 @@
-class Vehicle :
-    def __init__(self, name, price, color="blue", type="Crossland"):
+class Vehicle:
+    def __init__(self, name, price, color="blue", type="Crossland"): #constructor
         self.name = name
         self.type = type
         self.color = color
@@ -11,17 +11,12 @@ vehicles_list = []
 for _ in range(1):
     car_name = input("enter vehicle name: ")
     car_price = input("enter vehicle price: ")
-    #vehicle_obj = Vehicle(car_name, car_price)
-    #print(vehicle_obj)
     user_decision = input("do you want car type and color")
 
     if user_decision == "yes":
         car_type = input("enter vehicle type: ")
         car_color = input ("enter vehicle color")
         vehicles_list.append(Vehicle(car_name, car_price, car_color, car_type))
-
-        #vehicle_obj = Vehicle(car_name, car_price, car_color, car_type)
-        #print(Vehicle(car_name, car_price, car_color, car_type))
     else:
         vehicles_list.append(Vehicle(car_name, car_price))
 

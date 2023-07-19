@@ -23,11 +23,11 @@ is_equal = (name_1 == name_2)
 print(is_equal)
 
 # Logical operators
-print(True or False)
-print(False or True or False)
-print(False and True and False)
-print(True and False)
-print(not False)
+print(True or False) #True
+print(False or True or False) #True
+print(False and True and False) #False
+print(True and False) #False
+print(not False) # True
 
 # Membership operators
 print("fox" not in "cow, sheep, dog")

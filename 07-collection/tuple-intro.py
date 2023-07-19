@@ -11,6 +11,6 @@ print(my_things)
 person = ("udoka", 20, "joensuu")
 name, age, place = person
 
-print(name)
-print(age)
 print(place)
+print(age)
+print(name)
