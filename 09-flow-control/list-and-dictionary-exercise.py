@@ -45,3 +45,4 @@ print("Friends:", student_profile["Friends"])
 print(student_profile)
 
 
+

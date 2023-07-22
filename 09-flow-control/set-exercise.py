@@ -14,9 +14,9 @@ friends = set()
 friend = input("Enter your favourite friend: ")
 
 if friend:
-    friends.add(friend)
+    friends = friend
 else:
     print("please enter a name")
 
-student_set = {name, age,  favourite_subjects, friends}
+student_set = {name, age,  str(favourite_subjects), str(friends)}
 print(student_set)
